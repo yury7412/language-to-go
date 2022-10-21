@@ -591,39 +591,35 @@ input{
 }
 
 
-.footer{
+.site-footer{
     background: #641F76;
-    margin-top: 60px;
+    margin-top: 40px;
+    padding-bottom: 45px;
 }
 
-.colons_container{
+.container_footer{
+    padding-top: 10px;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px;
-} 
+}
 
-.about{
-    width: 292px;
-    font-family: 'Gilroy';
+.about p{
+    font-weight: 400;
     font-size: 14px;
     line-height: 120%;
-    letter-spacing: 0.01em;
     color: #FFFFFF;
+    width: 292px;
     margin-top: 30px;
 }
 
-.pay_content{
+.pay{
     display: flex;
     gap: 15px;
-    margin-top: 31px;
+    align-items: center;
+    margin-top: 27px;
 }
 
-.t1{
-    font-family: '?????';
-    font-style: normal;
+.menu_footer h1{
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
@@ -631,21 +627,156 @@ input{
 }
 
 
-.footer_nav a{
-    font-family: 'Gilroy';
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+.colons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.tel_footer, .addres__footer, .email__footer {
     margin-top: 10px;
 }
 
-.social_media{
+.tel_footer a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F1F3F9;
+}
+
+.addres__footer a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F1F3F9;
+}
+
+.email__footer a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F1F3F9;
+}
+
+.menu_footer{
+    padding-top: 20px;
+}
+
+
+
+.menu_footer li a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F1F3F9;
+}
+
+.port{
     display: flex;
+    gap: 12px;
     align-items: center;
-    gap: 15px;
     margin-top: 20px;
 }
+
+.port a{
+    color: #9BAED5;
+}
+
+.question{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 12px; 
+}
+
+.question a{
+    color: #9BAED5;
+}
+
+.line{
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+
+.a_footer{
+    margin-top: 25px;
+}
+
+.menu_footer li{
+    gap: 25px;
+}
+
+.menu__footer_2{
+    padding-top: 12px;
+}
+
+.a_footer{
+    color: #fff;
+}
+
+.line__footer{
+    border: 1px solid #464C5A;
+    margin-top: 60px;
+}
+
+.copy__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.cpr_a a, .politic a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.card__doc a:hover{
+    color: #626262;
+    transform: .3s;
+}
+
+.tel_footer a:hover{
+    color: #b5b5b5;
+}
+
+.addres__footer a:hover{
+    color: #b5b5b5;
+}
+
+.email__footer a:hover{
+    color: #b5b5b5;
+}
+
+.menu_footer a:hover{
+    color: #b5b5b5;
+}
+
+.copy__content a:hover{
+    color: #b5b5b5;
+}
+
+
+
+
+
 
 .news:hover{
     border: 1px solid #EFEFFF;
@@ -1070,6 +1201,58 @@ input{
         gap: 0;
     }
 
+    .block_title{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .btn_course a {
+        padding: 12px 170px;
+        margin-top: 1090px;
+        position: absolute;
+    }
+
+    .block_title h1{
+        text-align: center;
+    }
+
+    .whome_title h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #232323;
+    }
+
+    .prg_whome{
+        font-size: 16px;
+    }
+
+    .course_list {
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+
+    .banner_cont {
+        width: 435px;
+        padding: 30px;
+    }
+
+    .reg_h1 {
+        width: 388px;
+        font-size: 24px;
+    }
+
+    .banner_img{
+        display: block;
+    }
+
+    .banner_section {
+        padding: 30px;
+        flex-wrap: wrap-reverse;
+    }
+
 
     .colons_container {
         margin-top: 40px;
@@ -1083,76 +1266,107 @@ input{
         padding: 0;
     }
 
-    .banner_cont {
-        max-width: 100%;
-        border-radius: 0;
-    }
-
-    .banner_img {
-        display: block;
-        width: 100%;
-        text-align: center;
-        display: inline-block;
-    }
-
-    .banner_section {
-        padding: 30px;
+    .colons {
+        margin-top: 40px;
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
     }
 
-    .metodic_title{
-        font-size: 35px;
-        width: 500px;
-        margin-top: 90px;
+    
+}
+
+
+@media (max-width: 420px) {
+    .block_title h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .btn_course a {
+        padding: 12px 140px;
+        margin-top: 1090px;
+        position: absolute;
+    }  
+}
+
+@media (max-width: 380px) {
+    .h1_hero {
+        font-size: 30px;
+    }
+
+    .prg_hero {
+        font-size: 14px;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .btn_hero a {
+        width: 81%;
+        text-align: center;
+    }
+
+    .title_curse h1{
+        font-size: 24px;
+    }
+
+    .time_course, .modules{
+        font-size: 17px;
+    }
+
+    .about_block a{
+        font-size: 16px;
+    }
+
+    .German_card{
+        padding: 24px;
+    }
+
+    .flag svg{
+        width: 45px;
+    }
+
+    .flag img{
+        width: 45px;
+    }
+
+    .price{
+        font-size: 16px;
+    }
+
+    .about_block svg{
+        width: 20px;
+    }
+
+    .btn_course a{
+        margin-top: 970px;
+        padding: 12px 113px;
+    }
+
+    .prg_whome {
+        font-size: 15px;
+        width: 298px;
+    }
+
+    .whome_title{
+        font-size: 30px;
+    }
+
+
+    .txt_cont_p{
+        font-size: 16px;
+        width: 304px;
+    }
+
+    .card_adv{
+        padding: 0;
     }
     
-    .right_medotic p {
-        font-size: 17px;
-        width: 338px;
-    }
 
-    .banner_img_2{
-        display: none;
-    }
-
-    .reg_h1 {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 25px;
-        line-height: 54px;
-        letter-spacing: 0.01em;
-        color: #232323;
-        width: 444px;
-    }
-
-    .input_container {
-        display: grid;
+    .card_lern{
         gap: 40px;
-        align-items: center;
-        margin-top: 40px;
     }
-
-    input {
-        width: 77%;
-        height: 50px;
-    }
-
-    .btn_input a {
-        background: #78258D;
-        border-radius: 8px;
-        padding: 16px 129px;
-        color: #FFFFFF;
-    }
-
-    .politic{
-        margin-top: 40px;
-        width: 481px;
-    }
-
-    .banner_cont {
-        width: 89%;
-        border-radius: 20px;
-    }
+    
 }
