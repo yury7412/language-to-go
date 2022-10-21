@@ -1226,6 +1226,7 @@ input{
 
     .prg_whome{
         font-size: 16px;
+	width: 100%;
     }
 
     .course_list {
