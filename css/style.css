@@ -856,15 +856,15 @@ input{
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: #fff;
+		background-color: #f1b5ff;
 		z-index: 1;
 		padding: 46px 30px;
 		display: flex;
 		flex-direction: column;
 		row-gap: 40px;
 		font-size: 20px;
-        line-height: 26px;
-        color: #232323;
+		line-height: 26px;
+		color: #232323;
 	}
 
 	.nav-button {
@@ -904,7 +904,6 @@ input{
 
     .hero{
         padding: 30px;
-        align-items: self-end;
     }
 
     .h1_hero{
@@ -1279,6 +1278,65 @@ input{
     
 }
 
+@media (max-width: 768px){
+	.go{
+	  font-size: 16px;
+	}
+	
+	.h1_hero {
+	    width: 100%;
+	    font-family: 'Gilroy';
+	    font-style: normal;
+	    font-weight: 900;
+	    font-size: 29px;
+	    line-height: 54px;
+	    letter-spacing: 0.01em;
+	    color: #232323;
+        }
+	
+    .prg_hero {
+       font-size: 14px;
+     }
+	
+    .card_lern {
+	    margin: 0;
+	    gap: 0;
+    }
+    
+	
+    .colons {
+	    margin-top: 20px;
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    padding: 30px;
+	    gap: 30px;
+    }
+    
+    .menu_footer h1{
+	font-family: '?????';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 113%;
+     }
+     
+     li {
+	    list-style: none;
+	    margin-top: 5px;
+     }
+     
+	.menu_footer li a{
+		font-family: '?????';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	 
+	
+}
+
 
 @media (max-width: 420px) {
     .block_title h1 {
@@ -1344,6 +1402,86 @@ input{
     .btn_course a{
         margin-top: 970px;
         padding: 12px 113px;
+    }
+
+    .prg_whome {
+        font-size: 15px;
+        width: 298px;
+    }
+
+    .whome_title{
+        font-size: 30px;
+    }
+
+
+    .txt_cont_p{
+        font-size: 16px;
+        width: 304px;
+    }
+
+    .card_adv{
+        padding: 0;
+    }
+    
+
+    .card_lern{
+        gap: 40px;
+    }  
+}
+
+
+
+@media (max-width: 390px) {
+    .h1_hero {
+        font-size: 30px;
+    }
+
+    .prg_hero {
+        font-size: 14px;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .btn_hero a {
+        width: 81%;
+        text-align: center;
+    }
+
+    .title_curse h1{
+        font-size: 24px;
+    }
+
+    .time_course, .modules{
+        font-size: 17px;
+    }
+
+    .about_block a{
+        font-size: 16px;
+    }
+
+    .German_card{
+        padding: 24px;
+    }
+
+    .flag svg{
+        width: 45px;
+    }
+
+    .flag img{
+        width: 45px;
+    }
+
+    .price{
+        font-size: 16px;
+    }
+
+    .about_block svg{
+        width: 20px;
+    }
+
+    .btn_course a{
+        margin-top: 970px;
+        padding: 12px 126px;
     }
 
     .prg_whome {
