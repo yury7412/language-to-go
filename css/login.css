@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 717px;
+    margin: 0 auto;
+    margin-top: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_login h1{
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 113%;
+    color: #232323;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.prg_login p{
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    width: 339px;
+    margin-top: 12px;
+}
+
+.input_phone input{
+    border: 2px solid #78258D;
+    border-radius: 8px;
+    padding: 18px;
+    width: 323px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.btn a{
+    width: 100%;
+    max-width: 325px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #78258D;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+   
+    /* Важные стили для анимации */
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.btn a:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 200px;
+    margin-left: 50px;
+    background: #fff;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0.5) 100%
+    );
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    position: absolute;
+    animation: movingFlare 3s ease-in-out 0.05s infinite;
+  }
+   
+  @keyframes movingFlare {
+    0% {
+      left: -30px;
+      margin-left: 0px;
+    }
+    30% {
+      left: 110%;
+      margin-left: 80px;
+    }
+    100% {
+      left: 110%;
+      margin-left: 80px;
+    }
+  }
+
+
+
+
+.btn_gos{
+    margin-top: 30px;
+}
+
+.btn_gos a, .btn_vk a, .btn_yan a{
+    align-items: center;
+    font-size: 17px;
+    line-height: 32px;
+    display: flex;
+    color: #0D4CD3;
+    gap: 20px;
+    border: 1px solid #0D4CD3;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 323px;
+    justify-content: center;
+}
+
+.btn_vk a, .btn_yan a{
+    margin-top: 20px;
+    color: #000000;
+    font-size: 17px;
+    line-height: 32px;
+    border: 1px solid #BDBDBD;
+}
+
+.title_line{
+    text-align: center;
+}
+
+.title_line {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #828282;
+
+}
+.title_line span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+}
+.title_line:before,
+.title_line:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100px;
+    border: 1px solid #BDBDBD;
+    /* Добавляем цвет для линии */
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+}
+.title_line:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -14px;
+}
+.title_line:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}
+
+
+
+
